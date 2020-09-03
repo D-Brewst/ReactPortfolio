@@ -2,6 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import MyNavbar from "./components/Navbar";
 import MyFooter from "./components/Footer";
+import Portfolio from "./Pages/Portfolio";
+import About from "./Pages/About";
 
 export default function Routes() {
   return (
@@ -9,10 +11,10 @@ export default function Routes() {
       <MyNavbar />
       <Switch>
         <Route path="/Portfolio">
-          <h1>Projects</h1>
+          <Portfolio />
         </Route>
         <Route path="/">
-          <h1>HomePage</h1>
+          <About />
         </Route>
         <Route path="/Contact">
           <h1>Contact</h1>

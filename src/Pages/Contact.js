@@ -3,10 +3,11 @@ import {Form} from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import "../App.css"
 
 function Contact(){
     return(
-        <Container style={{backgroundColor: "white"}}>
+        <Container className="Contact">
             <Row>
                 <Col>
                 <Form>

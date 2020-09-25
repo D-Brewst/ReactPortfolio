@@ -2,42 +2,42 @@
     {
         "id": 1,
         "title": "Code Quiz",
-        "image": "/assets/Images/NUZ logo.png",
+        "image": "CodeQuiz",
         "description": "",
         "link":"https://d-brewst.github.io/CodeQuiz/"
     },
     {
         "id": 2,
         "title": "Nuz",
-        "image": "../assets/Images/NUZ logo.png",
+        "image": "NUZlogo",
         "description": "",
         "link":"https://dianapulatova.github.io/NUZ/"
     },
     {
         "id": 3,
         "title": "The Village",
-        "image": "assets/Images/thevillage.PNG",
+        "image": "thevillage",
         "description": "",
         "link":"https://limitless-refuge-18664.herokuapp.com/"
     },
     {
         "id": 4,
         "title": "Work Day Scheduler",
-        "image": "/assets/Images/Work Day Scheduler(1).png",
+        "image": "WorkDayScheduler",
         "description": "",
         "link":"https://d-brewst.github.io/DayPlanner/"
     },
     {
         "id": 5,
         "title": "Password Generator",
-        "image": "http://www.innovins.com/wp-content/uploads/2017/03/Strong-Password.jpg",
+        "image": "PasswordGenerator",
         "description": "",
         "link":"https://d-brewst.github.io/Password_Generator/"
     },
     {
         "id": 6,
         "title": "Weather Dashboard",
-        "image": "https://wi-images.condecdn.net/image/doEYpG6Xd87/crop/2040/f/weather.jpg",
+        "image": "WeatherDashboard",
         "description": "",
         "link":"https://d-brewst.github.io/WeatherApp/"
     }

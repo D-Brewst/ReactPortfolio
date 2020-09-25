@@ -8,6 +8,7 @@ import CodeQuiz from "../assets/Images/CodeQuiz.png";
 import thevillage from "../assets/Images/thevillage.png";
 import NUZlogo from "../assets/Images/NUZlogo.png";
 import WorkDayScheduler from "../assets/Images/WorkDayScheduler.png";
+import "./portfolio.css";
 
 function Portfolio(){
     const image = {
@@ -32,7 +33,12 @@ function Portfolio(){
     }
 
     return (
-    <Container>
+
+    <Container id="main">
+        <div>
+          <h3>Portfolio</h3>
+          <hr/>
+        </div>
         <Row>
             {projects.map((project) => (
           <Col md={4}>

@@ -3,11 +3,15 @@ import {Form} from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import "../App.css"
+import "./contact.css"
 
 function Contact(){
     return(
-        <Container className="Contact">
+        <Container id="Contact">
+            <div>
+                <h3>Contact Me</h3>
+                <hr/>
+            </div>
             <Row>
                 <Col>
                 <Form>

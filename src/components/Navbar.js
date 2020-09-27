@@ -5,7 +5,7 @@ import {Button} from "react-bootstrap";
 
 function MyNavbar(){
     return (
-        <Navbar variant="dark" style={{backgroundColor: "black"}}>
+        <Navbar variant="dark" style={{backgroundColor: "black"}} expand="lg">
             <Navbar.Brand href="/">Devon Brewster</Navbar.Brand>
             <Button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

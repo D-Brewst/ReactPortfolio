@@ -13,3 +13,13 @@ body{
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
+
+.fa-github{
+    color: orangered;
+    margin-right: 5px;
+}
+
+.fa-linkedin-square{
+    color: orangered;
+    margin-left: 5px;
+}

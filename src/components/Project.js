@@ -1,21 +1,109 @@
-import React from "react";
-import Card from 'react-bootstrap/Card';
-import Button from "react-bootstrap/Button";
+// import React from 'react';
+// import { MDBCard, MDBCardTitle, MDBBtn, MDBIcon } from 'mdbreact';
+// import "./project.css";
 
-function Project(props){
-    return (
-        <Card className="card h-100" style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={props.image} />
-            <Card.Body>
-                <Card.Title>{props.title}</Card.Title>
-                <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
-                </Card.Text>
-                <Button variant="primary" href={props.link}>Go to site</Button>
-            </Card.Body>
-        </Card>
-    )
+// const ProjectCards = (props) => {
+//   return (
+//         <MDBCard
+//           className='card-image'
+//           id="procard"
+//           style={{
+//             background:
+//               `url(${props.image})`,
+//           }}
+//         >
+//           <div className='text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4'>
+//             <div>
+//               <h5 className='pink-text'>
+//                 <MDBIcon icon='chart-pie' /> Marketing
+//               </h5>
+//               <MDBCardTitle tag='h3' className='pt-2'>
+//                 <strong>{props.title}</strong>
+//               </MDBCardTitle>
+//               <p>
+//                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+//                 Repellat fugiat, laboriosam, voluptatem, optio vero odio nam sit
+//                 officia accusamus minus error nisi architecto nulla ipsum
+//                 dignissimos. Odit sed qui, dolorum!
+//               </p>
+//               <MDBBtn id="linkbtn" href={props.link}>
+//                 <MDBIcon icon='clone left' /> View project
+//               </MDBBtn>
+//             </div>
+//           </div>
+//         </MDBCard>
+//   )
+// }
+
+// export default ProjectCards;
+
+import React from 'react';
+import { MDBCard, MDBCardTitle, MDBBtn, MDBRow, MDBCol, MDBIcon } from 'mdbreact';
+
+const CardExample = () => {
+  return (
+    <MDBRow>
+      <MDBCol md='4'>
+        <MDBCard
+          className='card-image'
+          style={{
+            backgroundImage:
+              "url('https://mdbootstrap.com/img/Photos/Horizontal/Work/4-col/img%20%2814%29.jpg')"
+          }}
+        >
+          <div className='text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4'>
+            <div>
+              <h5 className='pink-text'>
+                <MDBIcon icon='chart-pie' /> Marketing
+              </h5>
+              <MDBCardTitle tag='h3' className='pt-2'>
+                <strong>This is card title</strong>
+              </MDBCardTitle>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Repellat fugiat, laboriosam, voluptatem, optio vero odio nam sit
+                officia accusamus minus error nisi architecto nulla ipsum
+                dignissimos. Odit sed qui, dolorum!
+              </p>
+              <MDBBtn color='pink'>
+                <MDBIcon icon='clone left' /> View project
+              </MDBBtn>
+            </div>
+          </div>
+        </MDBCard>
+      </MDBCol>
+
+      <MDBCol md='4'>
+        <MDBCard
+          className='card-image'
+          style={{
+            backgroundImage:
+              "url('https://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20(47).jpg')"
+          }}
+        >
+          <div className='text-white text-center d-flex align-items-center rgba-indigo-strong py-5 px-4'>
+            <div>
+              <h5 className='orange-text'>
+                <MDBIcon icon='desktop' /> Software
+              </h5>
+              <MDBCardTitle tag='h3' className='pt-2'>
+                <strong>This is card title</strong>
+              </MDBCardTitle>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Repellat fugiat, laboriosam, voluptatem, optio vero odio nam sit
+                officia accusamus minus error nisi architecto nulla ipsum
+                dignissimos. Odit sed qui, dolorum!
+              </p>
+              <MDBBtn color='deep-orange'>
+                <MDBIcon icon='clone left' /> View project
+              </MDBBtn>
+            </div>
+          </div>
+        </MDBCard>
+      </MDBCol>
+    </MDBRow>
+  )
 }
 
-export default Project;
+export default CardExample;

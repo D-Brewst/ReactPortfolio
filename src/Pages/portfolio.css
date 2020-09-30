@@ -1,5 +1,24 @@
-#main{
+/* #main{
     background-color: #ffffff;
-    margin-top: 20px;
-    margin-bottom: 75px;
+    padding: 20px;
+    margin: 20px auto 75px auto;
+    width: 90%;
+    border-radius: 7px;
+    text-align: center;
 }
+
+#project{
+    margin-bottom: 20px;
+}
+
+#projectsdiv{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#projectrow{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+} */

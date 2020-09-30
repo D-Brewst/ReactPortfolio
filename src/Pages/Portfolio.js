@@ -1,9 +1,8 @@
 import React from "react";
-import Project from "../components/Project";
+import { MDBRow, MDBCol, MDBContainer } from 'mdbreact';
+import ProjectCards from "../components/Project";
+import CardExample from "../components/Project";
 import projects from "../projects.json";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import CodeQuiz from "../assets/Images/CodeQuiz.png";
 import thevillage from "../assets/Images/thevillage.png";
 import NUZlogo from "../assets/Images/NUZlogo.png";
@@ -33,23 +32,47 @@ function Portfolio(){
     }
 
     return (
-
-    <Container id="main">
+      <MDBContainer>
         <div>
           <h3>Portfolio</h3>
           <hr/>
         </div>
-        <Row>
-            {projects.map((project) => (
-          <Col md={4}>
-            <Project 
-                title={project.title}
-                image={image[project.image] ? image[project.image].src : "tree"}
-                link={project.link}
-                key={project.id} />
-          </Col>))}
-        </Row>
-    </Container>
+        <CardExample />
+        {/* <MDBRow> */}
+          {/* {projects.map((project) => (
+            <MDBCol sm={12} md={6} lg={4} id="project">
+              <ProjectCards 
+                  title={project.title}
+                  image={image[project.image] ? image[project.image].src : "tree"}
+                  link={project.link}
+                  key={project.id} 
+                  id="card"
+                  />
+            </MDBCol>))} */}
+        {/* </MDBRow> */}
+      </MDBContainer>
+      
+
+    // <Container id="main">
+    //   <div id="projectsdiv">
+    //     <div>
+    //       <h3>Portfolio</h3>
+    //       <hr/>
+    //     </div>
+    //     <Row id="projectrow">
+    //         {projects.map((project) => (
+    //       <Col sm={12} md={6} lg={4} id="project">
+    //         <Project 
+    //             title={project.title}
+    //             image={image[project.image] ? image[project.image].src : "tree"}
+    //             link={project.link}
+    //             key={project.id} 
+    //             id="card"
+    //             />
+    //       </Col>))}
+    //     </Row>
+    //   </div>
+    // </Container>
     )
 }
 

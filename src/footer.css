@@ -14,12 +14,14 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-.fa-github{
+.icons{
     color: orangered;
+}
+
+#github{
     margin-right: 5px;
 }
 
-.fa-linkedin-square{
-    color: orangered;
+#linkedin{
     margin-left: 5px;
 }

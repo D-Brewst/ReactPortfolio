@@ -37,9 +37,8 @@ function Portfolio(){
           <h3>Portfolio</h3>
           <hr/>
         </div>
-        <CardExample />
-        {/* <MDBRow> */}
-          {/* {projects.map((project) => (
+        <MDBRow>
+          {projects.map((project) => (
             <MDBCol sm={12} md={6} lg={4} id="project">
               <ProjectCards 
                   title={project.title}
@@ -48,8 +47,8 @@ function Portfolio(){
                   key={project.id} 
                   id="card"
                   />
-            </MDBCol>))} */}
-        {/* </MDBRow> */}
+            </MDBCol>))}
+        </MDBRow>
       </MDBContainer>
       
 

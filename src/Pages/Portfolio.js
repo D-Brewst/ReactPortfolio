@@ -1,7 +1,6 @@
 import React from "react";
 import { MDBRow, MDBCol, MDBContainer } from 'mdbreact';
 import ProjectCards from "../components/Project";
-import CardExample from "../components/Project";
 import projects from "../projects.json";
 import CodeQuiz from "../assets/Images/CodeQuiz.png";
 import thevillage from "../assets/Images/thevillage.png";

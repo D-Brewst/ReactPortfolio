@@ -44,6 +44,7 @@ import {
   MDBCollapse,
   MDBContainer
 } from 'mdbreact';
+import "./navbar.css";
 
 class MyNavbar extends Component {
   state = {
@@ -58,13 +59,14 @@ class MyNavbar extends Component {
 
   render() {
     return (
-        <MDBContainer>
+        <MDBContainer fluid id="navcontainer">
           <MDBNavbar
-            color='light-blue lighten-4'
-            style={{ marginTop: '20px' }}
+            id="nav"
+            color="white"
+            // style={{ marginTop: '20px' }}
             light
           >
-            <MDBContainer>
+            <MDBContainer id="innercontainer">
               <MDBNavbarBrand>Navbar</MDBNavbarBrand>
               <MDBNavbarToggler
                 onClick={this.toggleCollapse('navbarCollapse1')}

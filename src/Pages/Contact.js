@@ -1,13 +1,15 @@
 import React from "react";
 import { MDBContainer, MDBRow, MDBCol, MDBBtn, MDBIcon, MDBInput } from 'mdbreact';
+import "./contact.css";
 
 const Contact = () => {
 return (
-<MDBContainer>
+    <div id="entire">
+    <h2 className="text-center">Send me a message</h2>
+<MDBContainer id="Contact">
   <MDBRow>
-    <MDBCol md="6">
-      <form>
-        <p className="h5 text-center mb-4">Write to us</p>
+    <MDBCol>
+      <form id="form">
         <div className="grey-text">
           <MDBInput label="Your name" icon="user" group type="text" validate error="wrong"
             success="right" />
@@ -26,6 +28,7 @@ return (
     </MDBCol>
   </MDBRow>
 </MDBContainer>
+</div>
 );
 };
 

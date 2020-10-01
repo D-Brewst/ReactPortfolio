@@ -6,10 +6,12 @@ const ProjectCards = (props) => {
   return (
         <MDBCard
           className='card-image'
-          id="procard"
           style={{
             background:
               `url(${props.image})`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center center',
+              backgroundRepeat: 'no-repeat'
           }}
         >
           <div className='text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4'>
@@ -21,10 +23,7 @@ const ProjectCards = (props) => {
                 <strong>{props.title}</strong>
               </MDBCardTitle>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Repellat fugiat, laboriosam, voluptatem, optio vero odio nam sit
-                officia accusamus minus error nisi architecto nulla ipsum
-                dignissimos. Odit sed qui, dolorum!
+                {props.text}
               </p>
               <MDBBtn id="linkbtn" href={props.link}>
                 <MDBIcon icon='clone left' /> View project

@@ -8,6 +8,10 @@ body{
     margin:0;
 }
 
+.text{
+    color: white;
+}
+
 #logo{
     font-weight: bold;
     border: none;
@@ -36,7 +40,7 @@ body{
 
 #nav{
     width: 100%;
-    z-index: 5;
+    z-index: 2;
     background-color: black;
     color: white;
     margin: 0;

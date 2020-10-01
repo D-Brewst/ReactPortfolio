@@ -43,6 +43,7 @@ function Portfolio(){
                   title={project.title}
                   image={image[project.image] ? image[project.image].src : "tree"}
                   link={project.link}
+                  text={project.description}
                   key={project.id} 
                   id="card"
                   />

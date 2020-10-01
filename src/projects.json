@@ -3,42 +3,42 @@
         "id": 1,
         "title": "Code Quiz",
         "image": "CodeQuiz",
-        "description": "",
+        "description": "A quiz website Built with HTML, CSS, and JavaScript.",
         "link":"https://d-brewst.github.io/CodeQuiz/"
     },
     {
         "id": 2,
         "title": "Nuz",
         "image": "NUZlogo",
-        "description": "",
+        "description": "An article analysis website built with HTML, CSS, Tachyons, JavaScript, and jQuery. ",
         "link":"https://dianapulatova.github.io/NUZ/"
     },
     {
         "id": 3,
         "title": "The Village",
         "image": "thevillage",
-        "description": "",
+        "description": "A community message board application that allows users to post messages that only users in their area code can see. Built using HTML, CSS, Bootstrap, Javascript, jQuery, Handlebars, Node.js, and mySQL.",
         "link":"https://limitless-refuge-18664.herokuapp.com/"
     },
     {
         "id": 4,
         "title": "Work Day Scheduler",
         "image": "WorkDayScheduler",
-        "description": "",
+        "description": "A day planner website built with HTML, CSS, JavaScript, jQuery, and moment.js",
         "link":"https://d-brewst.github.io/DayPlanner/"
     },
     {
         "id": 5,
         "title": "Password Generator",
         "image": "PasswordGenerator",
-        "description": "",
+        "description": "Password generation website built with HTML, CSS, and JavaScript.",
         "link":"https://d-brewst.github.io/Password_Generator/"
     },
     {
         "id": 6,
         "title": "Weather Dashboard",
         "image": "WeatherDashboard",
-        "description": "",
+        "description": "Weather website built with HTML, CSS, Bootstrap, JavaScript, and jQuery ",
         "link":"https://d-brewst.github.io/WeatherApp/"
     }
   ]

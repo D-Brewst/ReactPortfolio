@@ -5,19 +5,19 @@ import "./project.css";
 const ProjectCards = (props) => {
   return (
         <MDBCard
-          className='card-image'
+          className='card-image h-100'
           style={{
             background:
               `url(${props.image})`,
               backgroundSize: 'cover',
               backgroundPosition: 'center center',
-              backgroundRepeat: 'no-repeat'
+              backgroundRepeat: 'no-repeat',
           }}
         >
-          <div className='text-white text-center d-flex align-items-center rgba-black-strong py-5 px-4'>
+          <div className='text-white h-100 text-center d-flex align-items-center rgba-black-strong py-5 px-4'>
             <div>
               <h5 className='pink-text'>
-                <MDBIcon icon='chart-pie' /> Marketing
+                <MDBIcon icon='desktop' /> {props.type}
               </h5>
               <MDBCardTitle tag='h3' className='pt-2'>
                 <strong>{props.title}</strong>

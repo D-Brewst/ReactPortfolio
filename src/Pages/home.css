@@ -29,7 +29,7 @@
     font-weight: bold;
     border: none;
     position: absolute;
-    top: 40%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -50,4 +50,14 @@
     border: none;
     padding: 10px 20px 10px 20px;
     margin-left: 20px;
+}
+
+#folio{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#connect{
+    background-color: orangered;
 }

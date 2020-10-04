@@ -1,24 +1,17 @@
-/* #main{
-    background-color: #ffffff;
-    padding: 20px;
+#main{
+    background-color: transparent;
     margin: 20px auto 75px auto;
-    width: 90%;
-    border-radius: 7px;
+    width: 100%;
     text-align: center;
 }
 
-#project{
-    margin-bottom: 20px;
+.heading{
+    font-family: 'Archivo Narrow', sans-serif;
 }
 
-#projectsdiv{
+/* #projectrow{
     margin-left: auto;
     margin-right: auto;
-}
-
-#projectrow{
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 } */

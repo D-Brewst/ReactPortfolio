@@ -6,6 +6,7 @@ import CodeQuiz from "../assets/Images/CodeQuiz.png";
 import thevillage from "../assets/Images/thevillage.png";
 import NUZlogo from "../assets/Images/NUZlogo.png";
 import WorkDayScheduler from "../assets/Images/WorkDayScheduler.png";
+import WyldCard from "../assets/Images/WyldCard.png";
 import "./portfolio.css";
 
 function Portfolio(){
@@ -22,8 +23,8 @@ function Portfolio(){
       WorkDayScheduler: {
         src: WorkDayScheduler
       },
-      PasswordGenerator: {
-        src: "http://www.innovins.com/wp-content/uploads/2017/03/Strong-Password.jpg"
+      WyldCard: {
+        src: WyldCard
       },
       WeatherDashboard: {
         src: "https://wi-images.condecdn.net/image/doEYpG6Xd87/crop/2040/f/weather.jpg"
@@ -31,25 +32,25 @@ function Portfolio(){
     }
 
     return (
-      <MDBContainer>
-        <div>
-          <h3>Portfolio</h3>
-          <hr/>
-        </div>
-        <MDBRow>
-          {projects.map((project) => (
-            <MDBCol sm={12} md={6} lg={4} id="project">
-              <ProjectCards 
-                  title={project.title}
-                  image={image[project.image] ? image[project.image].src : "tree"}
-                  link={project.link}
-                  text={project.description}
-                  key={project.id} 
-                  id="card"
-                  />
-            </MDBCol>))}
-        </MDBRow>
-      </MDBContainer>
+      <div id="folio">
+            <h2 className="heading text-center">MY PROJECTS</h2>
+        <MDBContainer id="main">
+          <MDBRow>
+            {projects.map((project) => (
+              <MDBCol className="px-1 my-1" sm={12} md={6} lg={4}>
+                <ProjectCards 
+                    title={project.title}
+                    image={image[project.image] ? image[project.image].src : "tree"}
+                    link={project.link}
+                    text={project.description}
+                    key={project.id} 
+                    type={project.type}
+                    id="card"
+                    />
+              </MDBCol>))}
+          </MDBRow>
+        </MDBContainer>
+      </div>
       
 
     // <Container id="main">

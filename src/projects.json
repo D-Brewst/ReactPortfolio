@@ -1,44 +1,51 @@
 [
     {
         "id": 1,
-        "title": "Code Quiz",
-        "image": "CodeQuiz",
-        "description": "A quiz website Built with HTML, CSS, and JavaScript.",
-        "link":"https://d-brewst.github.io/CodeQuiz/"
+        "title": "WyldCard",
+        "image": "WyldCard",
+        "description": "A PWA that allows members to generate digital greeting cards for different occassions and download them as a PDF. Built with HTML, CSS, MDBootstrap, JavaScript, React, Node.js, Express.js, MongoDB, and Mongoose. Plaid and Dwolla currently being implemented to give users the ability to send money along with the digital card.",
+        "link":"https://blooming-crag-28988.herokuapp.com/",
+        "type": "Progressive Web Application"
     },
     {
         "id": 2,
         "title": "Nuz",
         "image": "NUZlogo",
         "description": "An article analysis website built with HTML, CSS, Tachyons, JavaScript, and jQuery. ",
-        "link":"https://dianapulatova.github.io/NUZ/"
+        "link":"https://dianapulatova.github.io/NUZ/",
+        "type": "Web Application"
     },
     {
         "id": 3,
         "title": "The Village",
         "image": "thevillage",
-        "description": "A community message board application that allows users to post messages that only users in their area code can see. Built using HTML, CSS, Bootstrap, Javascript, jQuery, Handlebars, Node.js, and mySQL.",
-        "link":"https://limitless-refuge-18664.herokuapp.com/"
+        "description": "A community message board application that allows users to post messages that only users in their area code can see. Built using HTML, CSS, Bootstrap, Javascript, jQuery, Handlebars, Node.js, Express.js, Sequelize, and mySQL.",
+        "link":"https://limitless-refuge-18664.herokuapp.com/",
+        "type": "Web Application"
     },
     {
         "id": 4,
         "title": "Work Day Scheduler",
         "image": "WorkDayScheduler",
         "description": "A day planner website built with HTML, CSS, JavaScript, jQuery, and moment.js",
-        "link":"https://d-brewst.github.io/DayPlanner/"
+        "link":"https://d-brewst.github.io/DayPlanner/",
+        "type": "Web Application"
     },
     {
         "id": 5,
-        "title": "Password Generator",
-        "image": "PasswordGenerator",
-        "description": "Password generation website built with HTML, CSS, and JavaScript.",
-        "link":"https://d-brewst.github.io/Password_Generator/"
+        "title": "Code Quiz",
+        "image": "CodeQuiz",
+        "description": "A quiz website Built with HTML, CSS, and JavaScript.",
+        "link":"https://d-brewst.github.io/CodeQuiz/",
+        "type": "Web Application"
     },
     {
         "id": 6,
         "title": "Weather Dashboard",
         "image": "WeatherDashboard",
         "description": "Weather website built with HTML, CSS, Bootstrap, JavaScript, and jQuery ",
-        "link":"https://d-brewst.github.io/WeatherApp/"
+        "link":"https://d-brewst.github.io/WeatherApp/",
+        "type": "Web Application"
     }
+
   ]

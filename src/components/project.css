@@ -1,3 +1,7 @@
 #linkbtn{
     background-color: orangered;
 }
+
+.card-image{
+    display: flex;
+}

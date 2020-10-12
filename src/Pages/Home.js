@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBJumbotron, MDBBtn, MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import { MDBJumbotron, MDBContainer, MDBRow, MDBCol } from "mdbreact";
 import pro from "../assets/Images/pro.JPG";
 import { useHistory } from "react-router-dom";
 import "./home.css";
@@ -27,16 +27,16 @@ function Home(){
                 </MDBRow>
                 <MDBRow>
                     <MDBCol>
-                        <MDBBtn id="portBtn" size="lg" onClick={redirectPortfolio}>
+                        <button id="portBtn" size="lg" onClick={redirectPortfolio}>
                             My Portfolio
-                        </MDBBtn>
-                        <MDBBtn id="tactBtn" size="lg" onClick={redirectContact}>
+                        </button>
+                        <button id="tactBtn" size="lg" onClick={redirectContact}>
                             Contact Me
-                        </MDBBtn>
+                        </button>
                     </MDBCol>
                 </MDBRow>             
             </MDBContainer>
-            <MDBContainer>
+            <MDBContainer id="aboutsection">
                 <About />
             </MDBContainer>
             <MDBContainer fluid id="folio">

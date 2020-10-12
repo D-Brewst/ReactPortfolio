@@ -1,5 +1,9 @@
 #linkbtn{
     background-color: orangered;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 20px 10px 20px;
 }
 
 .card-image{

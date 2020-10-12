@@ -6,4 +6,9 @@
 #aboutme{
     text-align: center;
     font-family: 'Archivo Narrow', sans-serif;
+    color: white;
+}
+
+p{
+    color: white;
 }

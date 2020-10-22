@@ -1,0 +1,62 @@
+*{
+    list-style: none;
+    padding: 0;
+}
+
+.skills{
+    width: 500px;
+    margin: 60px auto;
+    color: white;
+}
+
+.skills li{
+    margin: 20px 0;
+}
+
+.bar{
+    background: #fffffffd;
+    display: block;
+    height: 5px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px orangered;
+}
+
+.bar span{
+    height: 10px;
+    float: left;
+    background: orangered;
+}
+
+.html{
+    width: 90%;
+}
+
+.css{
+    width: 90%;
+}
+
+.javascript{
+    width: 90%;
+}
+
+.mysql{
+    width: 80%;
+}
+
+.node{
+    width: 90%;
+}
+
+.mongo{
+    width: 80%;
+}
+
+.react{
+    width: 90%;
+}
+
+.jquery{
+    width: 90%;
+}

@@ -9,6 +9,30 @@
     color: white;
 }
 
+#self-description{
+    margin-top: 60px;
+}
+
+#casual{
+    width: 400px;
+    height:400px;
+    border-radius: 7px;
+}
+
+.attributes{
+    width:100px;
+    height:100px;
+    
+}
+
+.attribute-box{
+    text-align: center;
+}
+
+.qualities{
+    color: white;
+}
+
 p{
     color: white;
 }

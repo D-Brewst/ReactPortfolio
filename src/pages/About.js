@@ -1,6 +1,6 @@
 import React from "react";
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
-import Skills from "../Components/Skills.js";
+import Skills from "../components/Skills.js";
 import hardwork from "../assets/Images/hardwork.png";
 import heart from "../assets/Images/heart.png";
 import problemsolving from "../assets/Images/problemsolving.png";

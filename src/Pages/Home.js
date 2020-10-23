@@ -1,7 +1,7 @@
 import React from "react";
 import { MDBJumbotron, MDBContainer, MDBRow, MDBCol } from "mdbreact";
 import pro from "../assets/Images/pro.JPG";
-import { useHistory } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 import "./home.css";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";

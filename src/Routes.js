@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import MyNavbar from "./components/Navbar";
 import MyFooter from "./components/Footer";
-import Home from "./pages/Home.js";
+import Home from "./pages/home.js";
 
 export default function Routes() {
   return (

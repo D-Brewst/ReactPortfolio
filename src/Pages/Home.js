@@ -8,7 +8,7 @@ import Contact from "./Contact";
 import About from "./About";
 
 function Home(){
-    const history = useHistory();
+    // const history = useHistory();
     // const redirectPortfolio = () => history.push("/Portfolio");
     // const redirectContact = () => history.push("/Contact");
 

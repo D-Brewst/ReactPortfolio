@@ -14,12 +14,15 @@ export default function Routes() {
         <Route exact path="/">
           <Home />
         </Route>
+        {/* <Route exact path="/">
+          <Home />
+        </Route>
         <Route exact path="/Portfolio">
           <Portfolio />
         </Route>
         <Route exact path="/Contact">
           <Contact />
-        </Route>
+        </Route> */}
       </Switch>
       <MyFooter />
     </Router>

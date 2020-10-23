@@ -4,13 +4,24 @@
 }
 
 .skills{
-    width: 500px;
+    width: 75%;
     margin: 60px auto;
     color: white;
 }
 
 .skills li{
-    margin: 20px 0;
+    margin-bottom: 35px;
+}
+
+li h5{
+    margin-bottom: 3px;
+}
+
+.grade{
+    float: right;
+    position: relative;
+    margin-bottom: 3px;
+    padding-bottom: 0px;
 }
 
 .bar{
@@ -21,6 +32,7 @@
     border-radius: 3px;
     overflow: hidden;
     box-shadow: 0 0 10px orangered;
+    width: 100%
 }
 
 .bar span{

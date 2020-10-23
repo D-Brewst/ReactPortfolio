@@ -46,6 +46,7 @@ import {
 } from 'mdbreact';
 import "./navbar.css";
 import trimmed from "../assets/Images/trimmed.PNG"
+import { HashLink as Link } from 'react-router-hash-link';
 
 class MyNavbar extends Component {
   state = {
@@ -77,7 +78,7 @@ class MyNavbar extends Component {
               >
                 <MDBNavbarNav left>
                   <MDBNavItem active>
-                    <MDBNavLink to='/'>Home</MDBNavLink>
+                    <Link to='/#aboutsection'>About</Link>
                   </MDBNavItem>
                   <MDBNavItem>
                     <MDBNavLink to='/Portfolio'>Portfolio</MDBNavLink>

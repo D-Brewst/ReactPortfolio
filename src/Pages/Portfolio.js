@@ -33,7 +33,7 @@ function Portfolio(){
 
     return (
       <div id="folio">
-            <h1 className="heading text-center">MY PROJECTS</h1>
+            <h1 className="heading text-center">My Projects</h1>
         <MDBContainer id="main">
           <MDBRow>
             {projects.map((project) => (

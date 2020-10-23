@@ -27,10 +27,10 @@ function Home(){
                 </MDBRow>
                 <MDBRow>
                     <MDBCol>
-                        <button id="portBtn" size="lg" onClick={redirectPortfolio}>
+                        <button id="portBtn" onClick={redirectPortfolio}>
                             My Portfolio
                         </button>
-                        <button id="tactBtn" size="lg" onClick={redirectContact}>
+                        <button id="tactBtn" onClick={redirectContact}>
                             Contact Me
                         </button>
                     </MDBCol>

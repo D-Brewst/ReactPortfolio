@@ -16,7 +16,7 @@ const ProjectCards = (props) => {
         >
           <div className='text-white h-100 text-center d-flex align-items-center rgba-black-strong py-5 px-4'>
             <div>
-              <h5 className='pink-text'>
+              <h5 className='red-text'>
                 <MDBIcon icon='desktop' /> {props.type}
               </h5>
               <MDBCardTitle tag='h3' className='pt-2'>

@@ -1,12 +1,10 @@
 import React from "react";
 import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
-import frameworks from "../assets/Images/frameworks.PNG";
 import Skills from "../components/Skills.js";
 import hardwork from "../assets/Images/hardwork.png";
 import heart from "../assets/Images/heart.png";
 import problemsolving from "../assets/Images/problemsolving.png";
 import teamwork from "../assets/Images/teamwork.png";
-import casual from "../assets/Images/casual.JPG"
 import "./about.css";
 
 function About(){
@@ -15,19 +13,19 @@ function About(){
             <h1 id="aboutme">About Me</h1>
             <MDBContainer className="mt-5" id="attribute-section">
                 <MDBRow>
-                    <MDBCol className="attribute-box">
+                    <MDBCol className="attribute-box" md={6} lg={3}>
                         <img className="attributes" src={hardwork} alt="hard work" />
-                        <h2 className="qualities">Hard Working</h2>
+                        <h2 className="qualities">Hard Worker</h2>
                     </MDBCol>
-                    <MDBCol className="attribute-box">
+                    <MDBCol className="attribute-box" md={6} lg={3}>
                         <img className="attributes" src={problemsolving} alt="problem solving" />
                         <h2 className="qualities">Problem Solver</h2>
                     </MDBCol>
-                    <MDBCol className="attribute-box">
+                    <MDBCol className="attribute-box" md={6} lg={3}>
                         <img className="attributes" src={heart} alt="passionate" />
                         <h2 className="qualities">Passionate</h2>
                     </MDBCol>
-                    <MDBCol className="attribute-box">
+                    <MDBCol className="attribute-box" md={6} lg={3}>
                         <img className="attributes" src={teamwork} alt="team work" />
                         <h2 className="qualities">Team Player</h2>
                     </MDBCol>

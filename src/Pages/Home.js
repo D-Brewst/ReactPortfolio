@@ -9,8 +9,8 @@ import About from "./About";
 
 function Home(){
     const history = useHistory();
-    const redirectPortfolio = () => history.push("/Portfolio");
-    const redirectContact = () => history.push("/Contact");
+    // const redirectPortfolio = () => history.push("/Portfolio");
+    // const redirectContact = () => history.push("/Contact");
 
     return (
         <div>
@@ -27,12 +27,12 @@ function Home(){
                 </MDBRow>
                 <MDBRow>
                     <MDBCol>
-                        <button id="portBtn" onClick={redirectPortfolio}>
+                        {/* <button id="portBtn" onClick={redirectPortfolio}>
                             My Portfolio
                         </button>
                         <button id="tactBtn" onClick={redirectContact}>
                             Contact Me
-                        </button>
+                        </button> */}
                     </MDBCol>
                 </MDBRow>             
             </MDBContainer>

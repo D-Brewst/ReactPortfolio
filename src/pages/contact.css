@@ -14,6 +14,12 @@
   padding: 20px;
 }
 
+#sendbtn{
+  background-color: orangered !important;
+  color: white;
+  border-radius: 7px;
+}
+
 .messageHeader{
   font-family: 'Archivo Narrow', sans-serif;
   color: white;

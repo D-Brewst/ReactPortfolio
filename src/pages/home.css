@@ -5,9 +5,9 @@
 }
 
 #pic{
-    height: 200px;
-    width: 200px;
-    border-radius: 50px;
+    height: 175px;
+    width: 175px;
+    border-radius: 30px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -29,7 +29,7 @@
     font-weight: bold;
     border: none;
     position: absolute;
-    top: 400px;
+    top: 52vh;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -71,6 +71,7 @@
 
 #foliolink:hover{
     color: orangered;
+    text-decoration: underline;
 }
 
 #aboutsection{

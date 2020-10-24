@@ -19,7 +19,7 @@ return (
           <MDBInput type="textarea" rows="2" label="Your message" icon="pencil-alt" />
         </div>
         <div className="text-center">
-          <MDBBtn outline color="secondary">
+          <MDBBtn id="sendbtn">
             Send
             <MDBIcon far icon="paper-plane" className="ml-1" />
           </MDBBtn>

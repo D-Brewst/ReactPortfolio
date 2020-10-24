@@ -22,8 +22,8 @@ function Home(){
                 </MDBRow>
                 <MDBRow>
                     <MDBCol>
-                        <h1>I'm Devon, a Full Stack Developer.</h1>
-                        <p>I am a recent coding bootcamp gradate with a strong passion for code. I am looking for the opportunity be become apart of a great development team. <Link id="foliolink" to="/#folio">Check out my work</Link> and feel free to <Link id="foliolink" to="/#connect">contact me</Link>.</p>
+                        <h1>I'm Devon,</h1>
+                        <p>A passionate full stack developer looking for the opportunity be become apart of a great development team. <Link id="foliolink" to="/#folio">Check out my work</Link> and feel free to <Link id="foliolink" to="/#connect">contact me</Link>.</p>
                     </MDBCol>
                 </MDBRow>
                 <MDBRow>

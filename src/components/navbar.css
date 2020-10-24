@@ -54,4 +54,16 @@ body{
     z-index: 10;
 }
 
+.link:hover{
+    color: orangered;
+}
+
+.link{
+    color: white;
+}
+
+.barlink{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 

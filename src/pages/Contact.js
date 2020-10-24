@@ -5,7 +5,7 @@ import "./contact.css";
 const Contact = () => {
 return (
     <div id="entire">
-    <h1 className="text-center messageHeader">Send me a message</h1>
+    <h1 className="text-center messageHeader">Contact me</h1>
 <MDBContainer id="Contact">
   <MDBRow>
     <MDBCol>

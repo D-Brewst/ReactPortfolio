@@ -39,7 +39,6 @@ import {
   MDBNavbarBrand,
   MDBNavbarNav,
   MDBNavItem,
-  MDBNavLink,
   MDBNavbarToggler,
   MDBCollapse,
   MDBContainer
@@ -77,14 +76,14 @@ class MyNavbar extends Component {
                 navbar
               >
                 <MDBNavbarNav left>
-                  <MDBNavItem active>
-                    <Link to='/#aboutsection'>About</Link>
+                  <MDBNavItem active className="barlink">
+                    <Link className="link" to='/#aboutsection'>About</Link>
                   </MDBNavItem>
-                  <MDBNavItem>
-                    <MDBNavLink to='/Portfolio'>Portfolio</MDBNavLink>
+                  <MDBNavItem active className="barlink">
+                    <Link className="link" to='/#folio'>Portfolio</Link>
                   </MDBNavItem>
-                  <MDBNavItem>
-                    <MDBNavLink to='/Contact'>Contact</MDBNavLink>
+                  <MDBNavItem active className="barlink">
+                    <Link className="link" to='/#connect'>Contact</Link>
                   </MDBNavItem>
                 </MDBNavbarNav>
               </MDBCollapse>

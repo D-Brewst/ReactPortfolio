@@ -6,6 +6,7 @@ import "./home.css";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 import About from "./About";
+import { HashLink as Link } from 'react-router-hash-link';
 
 function Home(){
     // const history = useHistory();
@@ -22,17 +23,16 @@ function Home(){
                 <MDBRow>
                     <MDBCol>
                         <h1>I'm Devon, a Full Stack Developer.</h1>
-                        <p>I am a recent coding bootcamp gradate with a strong passion for code. I am looking for the opportunity be become apart of a great development team. Check out my work and feel free to contact me.</p>
+                        <p>I am a recent coding bootcamp gradate with a strong passion for code. I am looking for the opportunity be become apart of a great development team. <Link id="foliolink" to="/#folio">Check out my work</Link> and feel free to <Link id="foliolink" to="/#connect">contact me</Link>.</p>
                     </MDBCol>
                 </MDBRow>
                 <MDBRow>
                     <MDBCol>
-                        {/* <button id="portBtn" onClick={redirectPortfolio}>
-                            My Portfolio
-                        </button>
-                        <button id="tactBtn" onClick={redirectContact}>
-                            Contact Me
-                        </button> */}
+                        <Link to="/#aboutme">
+                            <button id="portBtn">
+                                Learn More About Me
+                            </button>
+                        </Link>
                     </MDBCol>
                 </MDBRow>             
             </MDBContainer>

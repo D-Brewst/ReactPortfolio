@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDBCard, MDBCardTitle, MDBIcon } from 'mdbreact';
+import { MDBBtn, MDBCard, MDBCardTitle, MDBIcon } from 'mdbreact';
 import "./project.css";
 
 const ProjectCards = (props) => {
@@ -25,9 +25,9 @@ const ProjectCards = (props) => {
               <p>
                 {props.text}
               </p>
-              <button id="linkbtn" href={props.link}>
+              <MDBBtn id="linkbtn" href={props.link}>
                 <MDBIcon icon='clone left' /> View project
-              </button>
+              </MDBBtn>
             </div>
           </div>
         </MDBCard>

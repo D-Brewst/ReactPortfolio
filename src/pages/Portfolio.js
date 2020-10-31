@@ -48,6 +48,7 @@ function Portfolio(){
                     id="card"
                     />
               </MDBCol>))}
+              <p id="projectPtag">Check out my <a id="GHlink" href="https://github.com/D-Brewst">Github profile</a> to see more! </p>
           </MDBRow>
         </MDBContainer>
       </div>

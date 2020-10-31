@@ -34,7 +34,7 @@ function About(){
             <MDBContainer>
                 <MDBRow>
                     <MDBCol id="self-description">
-                        <p>I am a full stack developer that has built applications with several frameworks including HTML, CSS, JavaScript, jQuery, React, Node.js, Express.js, mySQL, Sequelize, and MongoDB. I also have experience with writing tests, implementing lazy loading, creating Progressive Web Applications, and file compression. I am a quick learner and I study daily to increase my proficiency and knowledge.</p>
+                        <p>I am a passionate programmer with a tremendous amount of grit. I have built applications with several frameworks including HTML, CSS, JavaScript, jQuery, React, Node.js, Express.js, mySQL, Sequelize, and MongoDB. I also have experience with algorithm scripting, writing tests, implementing lazy loading, creating Progressive Web Applications, and file compression. I am a quick learner and I study daily to increase my proficiency and knowledge.</p>
                     </MDBCol>
                 </MDBRow>
             </MDBContainer>

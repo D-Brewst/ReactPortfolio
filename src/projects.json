@@ -1,11 +1,11 @@
 [
     {
         "id": 1,
-        "title": "WyldCard",
-        "image": "WyldCard",
-        "description": "A PWA that allows members to generate digital greeting cards for different occassions and download them as a PDF. Built with HTML, CSS, MDBootstrap, JavaScript, React, Node.js, Express.js, MongoDB, and Mongoose. Plaid and Dwolla currently being implemented to give users the ability to send money along with the digital card.",
-        "link":"https://blooming-crag-28988.herokuapp.com/",
-        "type": "Progressive Web Application"
+        "title": "E-comm",
+        "image": "Ecomm",
+        "description": "A fully functional ecommerce website built with the MERN stack, stripe API, and styled with Sass.",
+        "link":"https://devonecomm.herokuapp.com/",
+        "type": "Web Application"
     },  
     {
         "id": 2,
@@ -17,18 +17,18 @@
     },
     {
         "id": 3,
+        "title": "WyldCard",
+        "image": "WyldCard",
+        "description": "A PWA that allows members to generate digital greeting cards for different occassions and download them as a PDF. Built with HTML, CSS, MDBootstrap, JavaScript, React, Node.js, Express.js, MongoDB, and Mongoose. Plaid and Dwolla currently being implemented to give users the ability to send money along with the digital card.",
+        "link":"https://blooming-crag-28988.herokuapp.com/",
+        "type": "Progressive Web Application"
+    },
+    {
+        "id": 4,
         "title": "Weather Dashboard",
         "image": "WeatherDashboard",
         "description": "Weather website built with HTML, CSS, Bootstrap, JavaScript, and jQuery ",
         "link":"https://d-brewst.github.io/WeatherApp/",
-        "type": "Web Application"
-    },
-    {
-        "id": 4,
-        "title": "E-comm",
-        "image": "Ecomm",
-        "description": "A fully functional ecommerce website built with the MERN stack, stripe API, and styled with Sass.",
-        "link":"https://devonecomm.herokuapp.com/",
         "type": "Web Application"
     },
     {

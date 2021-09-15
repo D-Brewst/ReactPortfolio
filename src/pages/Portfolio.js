@@ -5,7 +5,7 @@ import projects from "../projects.json";
 import CodeQuiz from "../assets/Images/CodeQuiz.png";
 import thevillage from "../assets/Images/thevillage.png";
 import NUZlogo from "../assets/Images/NUZlogo.png";
-import WorkDayScheduler from "../assets/Images/WorkDayScheduler.png";
+import ecommimg from "../assets/Images/ecommimg.png";
 import WyldCard from "../assets/Images/WyldCard.png";
 import "./portfolio.css";
 
@@ -20,8 +20,8 @@ function Portfolio(){
       NUZlogo: {
         src: NUZlogo
       },
-      WorkDayScheduler: {
-        src: WorkDayScheduler
+      Ecomm: {
+        src: ecommimg
       },
       WyldCard: {
         src: WyldCard

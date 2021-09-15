@@ -25,10 +25,10 @@
     },
     {
         "id": 4,
-        "title": "Work Day Scheduler",
-        "image": "WorkDayScheduler",
-        "description": "A day planner website built with HTML, CSS, JavaScript, jQuery, and moment.js",
-        "link":"https://d-brewst.github.io/DayPlanner/",
+        "title": "E-comm",
+        "image": "Ecomm",
+        "description": "A fully functional ecommerce website built with the MERN stack, stripe API, and styled with Sass.",
+        "link":"https://devonecomm.herokuapp.com/",
         "type": "Web Application"
     },
     {

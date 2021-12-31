@@ -23,7 +23,7 @@ function Home(){
                 <MDBRow>
                     <MDBCol>
                         <h1>I'm Devon,</h1>
-                        <p>A passionate software engineer looking for the opportunity be become apart of a great development team. <Link id="foliolink" to="/#folio">Check out my work</Link> and feel free to <Link id="foliolink" to="/#connect">contact me</Link>.</p>
+                        <p>A passionate software engineer. <Link id="foliolink" to="/#folio">Check out my work</Link> and feel free to <Link id="foliolink" to="/#connect">contact me</Link>.</p>
                     </MDBCol>
                 </MDBRow>
                 <MDBRow>
